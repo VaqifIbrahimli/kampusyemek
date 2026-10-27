@@ -1,0 +1,35 @@
+/* Naviqasiya paneli */
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: #FFA500;
+    text-decoration: underline;
+}
+
+main {
+    min-height: 70vh;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+/* Mətn içindəki linklər */
+main a:not(.btn) {
+    color: #212529;
+    font-weight: bold;
+}

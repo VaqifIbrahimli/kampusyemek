@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Səbət</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bg-dark text-white text-center py-3">
+    <h1>KampusYemək</h1>
+    <nav>
+        <a href="sifaris.html">Sifariş</a>
+        <a href="sebet.html" class="active">Səbət</a>
+        <a href="giris.html">Giriş</a>
+        <a href="qeydiyyat.html">Qeydiyyat</a>
+        <a href="elaqe.html">Əlaqə</a>
+    </nav>
+</header>
+
+<main class="container my-5">
+    <h2>Səbət</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Yemək</th>
+                <th>Say</th>
+                <th>Qiymət</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Plov</td>
+                <td>1</td>
+                <td>5.00 AZN</td>
+            </tr>
+            <tr>
+                <td>Mərci şorbası</td>
+                <td>2</td>
+                <td>4.00 AZN</td>
+            </tr>
+            <tr>
+                <td>Çay</td>
+                <td>1</td>
+                <td>0.50 AZN</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Cəmi</th>
+                <th>9.50 AZN</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form action="sifaris.html" style="max-width: 400px;">
+        <div class="mb-3">
+            <label class="form-label">Götürmə vaxtı</label>
+            <select class="form-select">
+                <option>12:00</option>
+                <option>12:30</option>
+                <option>13:00</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-dark">Sifarişi təsdiqlə</button>
+        <a href="sifaris.html" class="btn btn-secondary">Menyuya qayıt</a>
+    </form>
+</main>
+
+<footer>
+    <p class="mb-0">&copy; 2026 KampusYemək. Bütün hüquqlar qorunur.</p>
+</footer>
+</body>
+</html>

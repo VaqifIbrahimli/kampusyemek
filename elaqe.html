@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Əlaqə</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bg-dark text-white text-center py-3">
+    <h1>KampusYemək</h1>
+    <nav>
+        <a href="sifaris.html">Sifariş</a>
+        <a href="sebet.html">Səbət</a>
+        <a href="giris.html">Giriş</a>
+        <a href="qeydiyyat.html">Qeydiyyat</a>
+        <a href="elaqe.html" class="active">Əlaqə</a>
+    </nav>
+</header>
+
+<main class="container my-5">
+    <h2>Əlaqə</h2>
+
+    <div class="row g-4">
+        <div class="col-md-5">
+            <h5>Məlumat</h5>
+            <p><b>Ünvan:</b> Universitetin əsas binası, 1-ci mərtəbə, yeməkxana</p>
+            <p><b>Telefon:</b> +994 12 000 00 00</p>
+            <p><b>E-poçt:</b> info@kampusyemek.az</p>
+            <p><b>İş saatları:</b> Bazar ertəsi – Cümə, 11:00 – 16:00</p>
+        </div>
+
+        <div class="col-md-7">
+            <h5>Bizə yazın</h5>
+            <form action="elaqe.html">
+                <div class="mb-3">
+                    <label class="form-label">Ad, Soyad</label>
+                    <input type="text" class="form-control" placeholder="Adınızı daxil edin" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">E-poçt</label>
+                    <input type="email" class="form-control" placeholder="E-poçtunuzu daxil edin" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mesaj</label>
+                    <textarea class="form-control" rows="4" placeholder="Mesajınızı yazın" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Göndər</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p class="mb-0">&copy; 2026 KampusYemək. Bütün hüquqlar qorunur.</p>
+</footer>
+</body>
+</html>
